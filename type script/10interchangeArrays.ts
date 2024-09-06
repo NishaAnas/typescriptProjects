@@ -3,17 +3,6 @@ const read= readline.createInterface({
     input:process.stdin,
     output:process.stdout
 })
-function findOddSum(limit:number):number{
-    let sum:number=0
-    console.log(`Sum of this numbers`)
-    for(let i:number=0;i<=limit;i++){
-        if(i%2!==0){
-            console.log(i)
-            sum+=i;
-        }
-    }
-    return sum;
-}
 
 read.question('Enter the size of the array:',(input1:string)=>{
     let size:number=parseInt(input1);
