@@ -4,7 +4,6 @@ interface Book {
     author: string;
     readingStatus: boolean;
 }
-
 // Library array containing books with title, author, and reading status
 const library: Book[] = [
     {
@@ -23,7 +22,6 @@ const library: Book[] = [
         readingStatus: false
     }
 ];
-
 // Function to display the reading status of each book
 function displayReadingStatus(books: Book[]): void {
     books.forEach(book => {
@@ -34,6 +32,5 @@ function displayReadingStatus(books: Book[]): void {
         }
     });
 }
-
 // Call the function to display reading status
 displayReadingStatus(library);

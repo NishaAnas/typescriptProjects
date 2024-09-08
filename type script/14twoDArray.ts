@@ -11,9 +11,9 @@ function add2DArrays(): void {
         const matrix1: number[][] = [];
         const matrix2: number[][] = [];
 
-        console.log('Enter the values of array 1 (space-separated rows, comma-separated values):');
+        console.log('Enter the values of array 1 (space-separated or comma-separated values):');
         readMatrix(matrix1, arraySize, () => {
-            console.log('Enter the values of array 2 (space-separated rows, comma-separated values):');
+            console.log('Enter the values of array 2 (space-separated or comma-separated values):');
             readMatrix(matrix2, arraySize, () => {
                 const sumMatrix = matrix1.map((row, i) =>
                     row.map((value, j) => value + matrix2[i][j])

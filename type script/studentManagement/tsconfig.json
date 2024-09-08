@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "module": "commonjs",
+      //"esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "outDir": "./dist",
+      "rootDir": "./",
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true
+    },
+    "include": ["controllers/**/*.ts", "models/**/*.ts", "routes/**/*.ts", "services/**/*.ts", "app.ts"],
+    "exclude": ["node_modules"]
+  }
+  
